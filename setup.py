@@ -17,5 +17,6 @@ setup(
         'sortedcontainers',
         'tornado',
         'requests',
+        'ipykernel',
     ],
 )
