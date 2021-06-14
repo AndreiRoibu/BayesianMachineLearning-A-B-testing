@@ -18,5 +18,6 @@ setup(
         'tornado',
         'requests',
         'ipykernel',
+        'statsmodels',
     ],
 )
