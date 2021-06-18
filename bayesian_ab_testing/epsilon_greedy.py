@@ -27,7 +27,7 @@ def experiment():
     times_explored = 0
     times_exploited = 0
     optimals = 0
-    optimal_j = np.argmax(bandit.p for bandit in bandits)
+    optimal_j = np.argmax([bandit.p for bandit in bandits])
     print("Original optimal j:", optimal_j)
 
     for i in range(NUM_TRIALS):
