@@ -19,5 +19,6 @@ setup(
         'requests',
         'ipykernel',
         'statsmodels',
+        'flask',
     ],
 )
